@@ -1,2 +1,2 @@
-# -RockPaperScissorsByElisei4ou
-This is simple console game
+# THE Rock-Paper-Scissors Game
+This is simple console game with some mods
