@@ -19,7 +19,7 @@ while True:
     elif player_move == "s":
         player_move = "scissors"
     else:
-        raise SystemExit("Invalid input. Try again...")
+        raise SystemExit(Fore.LIGHTRED_EX + "Invalid input. Try again...")
 
     computer_random_move = random.randint(1, 3)
     computer_move = ""
@@ -55,7 +55,7 @@ while True:
             print("Thank for playing")
             break
         else:
-            raise SystemExit("Invalid input. Try again...")
+            raise SystemExit(Fore.LIGHTRED_EX+"Invalid input. Try again...")
 
     elif computer_move == player_move:
         time.sleep(0.5)
@@ -81,7 +81,7 @@ while True:
             print("Thank for playing")
             break
         else:
-            raise SystemExit("Invalid input. Try again...")
+            raise SystemExit(Fore.LIGHTRED_EX+"Invalid input. Try again...")
     else:
         time.sleep(0.5)
         print(".")
@@ -105,5 +105,5 @@ while True:
             print("Thank for playing")
             break
         else:
-            raise SystemExit("Invalid input. Try again...")
+            raise SystemExit(Fore.LIGHTRED_EX+"Invalid input. Try again...")
 
